@@ -1,0 +1,86 @@
+.teste-conteiner {
+  height: 100vh;
+  background-image: url(../images/bg.jpg);
+  background-size: contain;
+  display: flex;
+}
+
+.testar-form {
+  position: relative;
+  left: 55%;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 550px;
+  background: url(../images/bg-form.jpg);
+  font-size: 23px;
+  border-style: solid;
+
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f1f1f1;
+  padding-left: 2%;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  width: 92%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.checkbox {
+  display: flex;
+}
+
+button {
+  position: relative;
+  width: 275px;
+  height: 100px;
+  position: relative;
+  top: 20%;
+  right: 10%;
+    color:#fff;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: gray;
+  border-radius: 10px;
+  transition: .5s;
+  border-style: none;
+}
+button:hover {
+    color: black;
+  background-color: #fff;
+  height: 105px;
+  width: 280px;
+}
+.horse-logo{
+    position: inherit;
+    filter: invert(100%);
+    position: relative;
+   height: 500px;
+    width: 300px;
+    right: 147%;
+   top:30%
+}
